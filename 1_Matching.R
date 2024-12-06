@@ -314,7 +314,7 @@ ggplot(data = pa_over_time) +
 
 ##### Last of the Wild #####
 
-lotw_raw <- st_read("Shapefiles/1. Prioritization_schemes/LOTW_v1/ltw-geo/ltwgeo_v1/ltwgeo_v1.shp")
+lotw_raw <- st_read("Shapefiles/1. Prioritization_schemes/LOTW/ltw-global-geo/ltw_v2geo.shp")
 lotw_raw
 crs(lotw_raw) #CRS arguments: +proj=longlat +ellps=GRS80 +no_defs 
 
