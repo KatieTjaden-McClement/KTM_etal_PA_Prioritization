@@ -1,0 +1,10 @@
+# Global prioritization schemes vary in their impact on the placement of protected areas
+## Katie Tjaden-McClement, Robin Naidoo, Angela Brennan, Cole Burton
+
+## Abstract
+In response to global declines in biodiversity, many global conservation prioritization schemes were developed to guide effective protected area establishment. Protected area coverage has grown dramatically since the introduction of several high-profile biodiversity prioritization schemes, but the impact of such schemes on protected area establishment has not been evaluated. We used matching methods and a Before-After Control-Impact causal analysis to evaluate the impact of two key prioritization schemes—Biodiversity Hotspots and Last of the Wild – representing examples of the reactive and proactive ends of the prioritization spectrum. We found that Last of the Wild had a positive impact on the rate of protection in its identified priority areas, but Biodiversity Hotspots did not. Because Biodiversity Hotspots are in or near human-dominated landscapes, this scheme may have been unable to overcome biases towards protecting areas with little human pressure. In contrast, Last of the Wild aligned with the tendency to protect areas far from high human use and thus with lower implementation costs, and so received greater uptake. Stronger links between large-scale prioritizations and more locally driven implementation of area-based conservation, as well as other forms of conservation action, are needed to overcome practical constraints and effectively protect biodiversity on an increasingly human-dominated planet.
+
+## Files
+This repository contains R code used in analysis for this manuscript. All data came from publically available sources, which are linked in Data_Sources.md.
+- 1_Matching.R contains code to prep spatial data and conduct statistical matching to create psuedo-experimental control and treatment datasets for the Biodiversity Hotspots and Last of the Wild global prioritization schemes.
+- 2_Modelling.R contains code to model the trends on protection over time in priority and control areas, before and after the prioritization schemes were established.
